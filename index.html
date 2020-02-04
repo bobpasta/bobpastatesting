@@ -231,7 +231,7 @@
 					var order = orderList[i];
 					$.ajax({
 						type: "GET",
-						url: "https://script.google.com/macros/s/AKfycbxJFXBRqM4_Y4E_w5qlI8QVmHd6HszYbqiyr65er5MEkGXA_0Eg/exec",
+						url: "https://script.google.com/macros/s/AKfycbwa1z-_N8qNVGQ-NP08m_j6Z-96P0CP6ehGAotYzZRR9gwpYyI/exec",
 						data: {
 						  "메뉴": order.goodsNm,
 						  "개수": order.cnt,
@@ -256,7 +256,7 @@
 			if ($('#extraField').val()) {
 				$.ajax({
 					type: "GET",
-					url: "https://script.google.com/macros/s/AKfycbxJFXBRqM4_Y4E_w5qlI8QVmHd6HszYbqiyr65er5MEkGXA_0Eg/exec",
+					url: "https://script.google.com/macros/s/AKfycbwa1z-_N8qNVGQ-NP08m_j6Z-96P0CP6ehGAotYzZRR9gwpYyI/exec",
 					data: {
 					  "메뉴": $('#extraField').val(),
 					  "개수": 0,
@@ -282,7 +282,7 @@
 				var amountHex = (totalAmount*Math.pow(2, 19)).toString(16);
 				//window.open('kakaotalk://kakaopay/money/to/qr?qr_code=28100601111831025100304527100000');
 				//location.href = 'https://qr.kakaopay.com/281006011118310251003045'+amountHex;
-				location.href = 'kakaotalk://kakaopay/money/to/qr?qr_code=281006011118310251003045'+amountHex;
+				location.href = 'kakaotalk://kakaopay/money/to/qr?qr_code=2810060111750597310052925'+amountHex;
 			}
 		});
 
